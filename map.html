@@ -4,16 +4,18 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<script src="https://use.fontawesome.com/4154d90246.js"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 	<!-- Materialize -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
 	<!-- CSS -->
 	<link rel="stylesheet" href="assets/css/mapstyle.css">
 </head>
 <body>
-	<nav class="el-nav">
+	<nav class="el-nav-phone">
 	    <div class="nav-wrapper">
-			<div class="row ">
-				<div class="col s4 phone">
+			<div class="row elem-phone">
+				<div class="col s4 left">
 					<i class="fa fa-circle" aria-hidden="true"></i>
 					<i class="fa fa-circle" aria-hidden="true"></i>
 					<i class="fa fa-circle" aria-hidden="true"></i>
@@ -22,21 +24,53 @@
 					
 					<i class="fa fa-wifi" aria-hidden="true"></i>
 				</div>
-				<div class="col s4 text-center">
+				<div class="col s4 center hora">
 					<p>6:01 PM</p>
 				</div>	
-				<div class="col s4 text-right ">
+				<div class="col s4 center">
 					<i class="fa fa-battery" aria-hidden="true"></i>
 				</div>			
 			</div>	
 	    </div>
 	</nav>
-	<section class="el-mapa" id="map">
+	<nav class="el-nav-logos">
+	    <div class="nav-wrapper">
+	    	<div class="row">
+	    		<div class="col s4 center">
+	    			
+	    		</div>
+	    		<div class="col s4 center">
+	    			<a href="#" class="brand-logo el-logo"><img class="logo" src="assets/img/logo-white.png" alt=""></a>
 
+	    		</div>
+	    		<div class="col s4 center">
+	    			<div class="circulo-gift">
+	    				<i class="fa fa-gift" aria-hidden="true"></i>
+	    			</div>
+	    		</div>	    			    		
+	    	</div>
+
+	    </div>
+ 	</nav>
+
+	<section class="el-mapa" id="map">
 	</section>
+
 	<section class="botones-encontrar">
-		<input type="text" id="destino">
-		<a class="waves-effect waves-light btn">button</a>
+		<div class="row">
+			<div class="col s6">
+				<img class="logo-gogle" src="assets/img/Google_2015_logo.svg.png" alt="">
+			</div>
+			<div class="col s6">
+				
+			</div>	
+		</div>
+		<div class="row">
+			<div class="col s12">
+				<input type="text" id="destino" placeholder=" introduce tu destino">
+				<a class="waves-effect waves-light btn" id="ruta">Set pickup</a>
+			</div>
+		</div>
 	</section>
 
 	<script async defer src="http://maps.googleapis.com/maps/api/js?key=AIzaSyD_fuPru5mi4Ps-Vl18xIixGXV9xX5LDUQ&callback=initMap&libraries=places"></script>

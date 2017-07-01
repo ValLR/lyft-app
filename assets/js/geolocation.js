@@ -3,8 +3,8 @@ function initMap(){
 		zoom: 5,
 		center: {lat: -9.1191427, lng: -77.0349046},
 		mapTypeControl: false,
-		zoomControl: true,
-		streetViewControl: true,
+		zoomControl: false,
+		streetViewControl: false,
 	});
 
 
@@ -38,6 +38,11 @@ function initMap(){
 		alert("tenemos un problema con encontrar tu ubicación");
 	}
 
+	/* AUTOCOMPRETADO INPUT */
+	var inputD = (document.getElementById('destino'));
+	var autocomplete = new google.maps.places.Autocomplete(inputD);
+        autocomplete.bindTo('bounds', map);
+
     /* 
 	DirectionsService: Este objeto se comunica con el servicio de indicaciones de la Google Maps API, el cual recibe solicitudes de indicaciones y devuelve resultados computados.
 	directionsDisplay : Indicaciones
@@ -47,7 +52,6 @@ function initMap(){
     	
 
 	//LLAMAR ID DE ENTRADAS	
-	document.getElementById('origen').addEventListener('change', onChangeHandler);
 	document.getElementById('destino').addEventListener('change', onChangeHandler);
 
 
