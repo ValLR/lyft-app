@@ -10,7 +10,14 @@ Mobile First, Lyft App
 
 ### Current Version : v 0.1
 
-## Materialize 
-- Ruby Sass 3.3+, LibSass 0.6+
+## Menu
+
+-  Se debe mostrar la foto por defecto del usuario y el nombre del usuario
+- Al hacer click en View Profile, nos debe llevar al perfil del usuario.
+- Al hacer click en Home nos debe llevar a la pàgina del principio
+- Los otros links no es necesario que sean funcionales
+- Mostrar el nombre del usuario mediante local storage
+- Mostrar otros datos del usuario guardados en localStorage(diseño propio)
+- Puntos Extra: Cambiar la imagen del usuario y que mantenga la imagen en el menu
 
 
