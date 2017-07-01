@@ -4,13 +4,14 @@ body{
 
 .el-nav-phone{
 	color: black;
-    background-color: transparent;
+    background-color: rgba(250,250,250, 0.7);
     box-shadow: none;
-    height: 30px;  
-    line-height: 20px;      
+    height: 20px;  
+    line-height: 20px;     
 }
 
-.hora p{
+.hora p,
+.bateria p{
 	margin: 0;
 }
 
@@ -23,14 +24,53 @@ nav .nav-wrapper i{
     background-color: transparent;
     box-shadow: none;
     height: 30px;  
-    line-height: 20px;     
+    line-height: 20px; 
+    position: relative;
+    top: -30px;        
 }
 nav .brand-logo{
-    position: relative;	
+    position: center;	
 }
 
 .logo{
 	width: 60px;
+}
+
+.circulo-gift{
+    position: center;	
+	background-color: #FFFFFF;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	padding-top: 13px;
+	position: relative;
+	left: 30%;
+	border: 1px solid #BFBFBF;	
+}
+
+.circulo-gift i{
+	color: #7F7F7F;
+	font-size: 30px;
+}
+
+
+.fondo-circulo-foto{
+	border-radius: 50%;	
+	width: 50px;
+	height: 50px;	
+	background-color: white;	
+	border: 1px solid #BFBFBF;
+	position: relative;
+	left: 10%;
+}
+
+.rounded-circle{
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	position: relative;
+	top: 4px;
+
 }
 
 .mapa-fondo{
@@ -51,13 +91,35 @@ nav .brand-logo{
 	width: 70px;
 }
 
+.circulo-navigation{
+    position: center;	
+	background-color: #FFFFFF;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	position: relative;
+	left: 70%;
+	border: 1px solid #BFBFBF;	
+	margin-bottom: 5px;	
+}
+
+.circulo-navigation i {
+	color: #7F7F7F;
+	font-size: 25px;	
+	margin-top: 7px;
+}
+
 .botones-encontrar{
     position: relative;
-    top: 350px;
+    top: 380px;
 }
 
 .botones-encontrar .col.s12 > .btn {
    width: 100%;
+}
+
+.fila-btn-encontrar{
+	margin-bottom: 0;	
 }
 
 input[type=text]:not(.browser-default){

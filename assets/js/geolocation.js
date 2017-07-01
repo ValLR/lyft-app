@@ -23,10 +23,13 @@ function initMap(){
 		latitud = posicion.coords.latitude;
 		longitud = posicion.coords.longitude;
 
+		var image = 'assets/img/icon-mapa.png';
+
 		var miUbicacion = new google.maps.Marker({
 			position: {lat:latitud, lng:longitud},
 			animation: google.maps.Animation.DROP,
 			map: map,
+			icon: image
 
 		});
 
