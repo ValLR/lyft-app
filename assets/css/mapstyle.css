@@ -33,15 +33,17 @@ nav .brand-logo{
 	width: 60px;
 }
 
-
+.mapa-fondo{
+	position: relative;
+}
 
 .el-mapa{
 	width: 100%;
-	height: 700px;
-    position: relative;
+	height: 750px;
+    position: absolute;
     top: -150px;
     overflow: hidden;
-    z-index: -1;
+    z-index: -10;
 
 }
 
@@ -51,7 +53,7 @@ nav .brand-logo{
 
 .botones-encontrar{
     position: relative;
-    top: -350px;	
+    top: 350px;
 }
 
 .botones-encontrar .col.s12 > .btn {
@@ -61,4 +63,20 @@ nav .brand-logo{
 input[type=text]:not(.browser-default){
 	background-color: white;
 	border-radius: 0.5em;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]){
+	border-bottom: 1px solid #6C6298;
+    box-shadow: 0 1px 0 0 #6C6298;
+}
+
+
+
+.btn-set{
+	border-radius: 0.5em;
+    background-color: #6C6298;
+}
+.btn-set:hover,
+.btn-set:focus{
+	background-color: #27136F;	
 }
