@@ -1,0 +1,13 @@
+nav{
+height: 28vh;
+background-color: transparent;
+}
+#logo-container{
+    background-color: white;
+}
+.btn{
+    top: 57px;
+    left: 3px;
+    height: 36px;
+    font-size: 7px;
+}
