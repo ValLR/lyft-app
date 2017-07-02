@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lyft App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Material Icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Fonts -->
+    <!--Font Awesome-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Materialize -->
+    <link href="assets/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <!-- CSS -->
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="assets/css/profile.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--PROFILE MENU-->
+    <nav class="lighten-1 profile responsive-img" role="navigation" id="photo">
+        <div class="nav-wrapper container"><a id="logo-container" href="#">
+            <a href="update_profile.html" class="waves-effect waves-light btn btn-small right">Edit Profile</a>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">more_vert</i></a>
+        </div>
+    </nav>
+
+    <section>
+        <div class="texto center">
+            <h4 id="firstname">Mercedes</h4>
+        </div>
+        <div class="center"> <a href="#" class="waves-effect waves-light btn box center">Joined  July 2017</a> </div>
+        <div class="list">
+            <ul>
+                <li><a href=""><i class="material-icons">&#xE88A;</i> <span id="home"></span></a></li>
+                <li><a href=""> <i class="material-icons">&#xE405;</i> <span id="music"></span></a></li>
+                <li><a href=""><i class="material-icons">person</i> <span id="hobbies"></span></a></li>
+            </ul>
+        </div>
+
+        <!--SIDE NAVBAR-->
+        <ul id="nav-mobile" class="side-nav">
+            <li>
+                <div class="user-view">
+                    <a href="#!user"><img class="responsive-img  circle profile-img" src="assets/img/generic_profile.jpg"></a>
+                    <a href="#!name"><span class="black-text center name" id="firstname_nav">Your Name</span></a>
+                    <a href="profile.html"><span class="grey-text center">View Profile</span></a>
+                </div>
+            </li>
+            <div class="divider"></div>
+            </li>
+            <li><a class="waves-effect" href="index.html"><i class="material-icons">location_on</i> Home</a></li>
+            <div class="divider"></div>
+            <li><a class="waves-effect" href="#!"> <i class="material-icons">&#xE8F6;</i> Free Rides</a></li>
+            <div class="divider"></div>
+            <li><a class="waves-effect" href="#!"><i class="material-icons">&#xE889;</i> Ride History</a></li>
+            <div class="divider"></div>
+            <li><a class="waves-effect" href="#!"><i class="material-icons">&#xE8A1;</i> Payment</a></li>
+            <div class="divider"></div>
+            <li><a class="waves-effect" href="#!"><i class="material-icons">&#xE8FD;</i> Help</a></li>
+            <div class="divider"></div>
+            <li><a class="waves-effect" href="#!"><i class="material-icons">&#xE8B8;</i> Settings</a></li>
+            <div class="divider"></div>
+            <li><a class="waves-effect blue-background white-text" href="#!"><i class="material-icons white-text">&#xE531;</i> Sign Up to Drive</a></li>
+        </ul>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- MATERIALIZE -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    <!-- JS -->
+    <script src="assets/js/profile.js"></script>
+    <script src="assets/js/init.js"></script>
+
+</body>
+
+</html>
