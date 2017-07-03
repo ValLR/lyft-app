@@ -9,6 +9,13 @@ $("#telefono").on("keyup", function(){
   }
 })
 
+function aleatorio(inferior,superior){ 
+       var resAleatorio = Math.floor((Math.random() * (superior - inferior + 1)) + inferior);
+      return resAleatorio;
+}
+
+
+
 $("#next").click(function(){
-  alert("heyheyhey");
+  alert(" Tu código es LAB-" + aleatorio(100,999))
 });
