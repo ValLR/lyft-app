@@ -22,6 +22,10 @@ img{
     height: 20vh;
     width: 50%;
 }
+.profile{
+    width: 100%;
+
+}
 .row{
     margin-bottom: 0;
 }
@@ -46,4 +50,14 @@ img{
     margin-bottom: 20px;
 }
 .color{
-background-color: #26a69a;}
+background-color: #26a69a;
+}
+
+.volver{
+    color: white;
+    font-size: 20px;
+}
+
+.volver:hover{
+    color: #ff1cc0 ;
+}
