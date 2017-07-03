@@ -3,3 +3,22 @@ html,body{
     background-color: ghostwhite;
 
 }
+
+.bg-img{
+	background-image: url("../img/lyft-driver.jpg");
+	background-position: center bottom;
+	background-size: cover;
+	height: 100vh;
+}
+.cont-logo{
+	height: 50px;
+}
+
+.logo-w{
+    height: 66px;
+    margin-top: 80px;
+}
+
+.btn-style{
+	margin-top: 120%;
+}
