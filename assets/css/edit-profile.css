@@ -1,0 +1,63 @@
+/*formulario*/
+.formulario{
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+.text{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 7%;
+    margin-top: 0%;
+}
+
+.btn{
+    margin-left: 2%;
+    margin-left: 31%;
+}
+#btn-save{
+    margin-top: 1%;
+}
+img{
+    height: 20vh;
+    width: 50%;
+}
+.profile{
+    width: 100%;
+
+}
+.row{
+    margin-bottom: 0;
+}
+.back{
+    color: #ff1cc0;
+    margin-right: 20px;
+}
+/*upload*/
+.file-field input[type=file]{
+    margin-left: 20px;
+}
+.file{
+    height: 25px;
+    line-height: 24px;
+    padding: 0 0.5rem;
+    top: 20px;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 4px;
+    width: 33%;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+.color{
+background-color: #26a69a;
+}
+
+.volver{
+    color: white;
+    font-size: 20px;
+}
+
+.volver:hover{
+    color: #ff1cc0 ;
+}

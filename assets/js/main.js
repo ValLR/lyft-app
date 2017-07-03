@@ -19,3 +19,4 @@ function aleatorio(inferior,superior){
 $("#next").click(function(){
   alert(" Tu código es LAB-" + aleatorio(100,999))
 });
+

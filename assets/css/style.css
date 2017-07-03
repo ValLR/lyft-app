@@ -1,59 +1,38 @@
-html,body{
-    
-    background-color: ghostwhite;
-    color:black;
-    text-align: center;
-
+.bg-img{
+    background-image: url("../img/lyft-driver.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    height: 97.7vh;
+    width: 100%;
 }
-.container{
-	width:100%;
+.cont-logo{
+    height: 50px;
 }
-.container .row{
-	margin-left:0;
-	margin-right:0;
+.logo-w{
+    height: 66px;
+    margin-top: 80px;
 }
-.header{
-	border-bottom: 1px solid grey;
+.btn-style{
+    margin-top: 100%;
 }
-
-.fa{
-	font-size:40px;
-	color:black;
+.btn-transp{
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0.5px;
+    text-transform: capitalize;
+    font-weight: 200;
+    font-size: 23px;
 }
-
-#back{
-	padding:30px 6px 30px 5px;
-	border:none;
-	background-color: transparent;
-}
-#back:hover{
-	background-color: whitesmoke;
-}
-.header-contain{
-	margin-bottom:0;
-}
-.titles{
-	padding:0;
-}
-
-.input-container{
-	margin: 10px 8px 0 8px;
-	padding:0 15px 0 15px;
-}
-.input-field{
-
-	margin-top:10;
-	border: 1px solid grey;
-	padding:0;
-}
-.select-wrapper input.select-dropdown{
-	border-bottom:none;
-	margin-bottom: 3px;
-}
-#telefono{
-	border-bottom:none;
-	margin-bottom: 3px;
-}
-#next{
-	background-color: #F500B7;
+.btn-gradient{
+    background: rgba(112,2,122,1);
+    background: -moz-linear-gradient(left, rgba(112,2,122,1) 0%, rgba(239,1,124,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(112,2,122,1)), color-stop(100%, rgba(239,1,124,1)));
+    background: -webkit-linear-gradient(left, rgba(112,2,122,1) 0%, rgba(239,1,124,1) 100%);
+    background: -o-linear-gradient(left, rgba(112,2,122,1) 0%, rgba(239,1,124,1) 100%);
+    background: -ms-linear-gradient(left, rgba(112,2,122,1) 0%, rgba(239,1,124,1) 100%);
+    background: linear-gradient(to right, rgba(112,2,122,1) 0%, rgba(239,1,124,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#70027a', endColorstr='#ef017c', GradientType=1 );
+    text-transform: capitalize;
+    font-weight: lighter;
+    font-size: 23px;
 }
