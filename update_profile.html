@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lyft App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Material Icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Font Awesome -->
+    <script src="https://use.fontawesome.com/4154d90246.js"></script>
+    <!--Font Awesome BOotstrap-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Materialize -->
+    <link href="assets/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <!-- CSS -->
+    <link href="assets/css/edit-profile.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+
+    <section class="formulario">
+        
+        <div class="text color white-text top "><span><a href="profile.html"><i class="fa fa-chevron-left volver" aria-hidden="true"></i></a> </span> UPDATE INFORMATION</div>
+        <div class="upload center">
+            <img class="img-responsive" src="assets/img/generic_profile.png" alt="photo" id="photo">
+            <form action="#">
+                <div class="btn  file">
+                    <span id="btn-upload">Upload</span>
+                </div>
+                <input type="file" id="files" name="files[]" multiple />
+        </div>
+        </form>
+
+        </div>
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input type="text" class="validate" id="firstname">
+                        <label for="firstname">First Name</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">location_on</i>
+                        <input type="text" class="validate" id="home">
+                        <label for="home">Home</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">&#xE405;</i> <input type="text" class="validate" id="music">
+                        <label for="music">Favorite Music</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">&#xE407;</i> <input type="text" class="validate" id="hobbies">
+                        <label for="hobbies">Hobbies</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <button class="btn waves-effect waves-light  color" type="button" name="action" id="btn-save">Submit
+            <i class="material-icons right center">send</i>
+        </button>
+    </section>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- MATERIALIZE -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    <!-- JS -->
+    <script src="assets/js/edit-profile.js"></script>
+    <script src="assets/js/init.js"></script>
+
+</body>
+
+</html>
