@@ -2,7 +2,7 @@
     background-image: url("../img/lyft-driver.jpg");
     background-position: center bottom;
     background-size: cover;
-    height: 120vh;
+    height: 97.7vh;
     width: 100%;
 }
 .cont-logo{
@@ -13,7 +13,7 @@
     margin-top: 80px;
 }
 .btn-style{
-    margin-top: 130%;
+    margin-top: 100%;
 }
 .btn-transp{
     background-color: transparent;
