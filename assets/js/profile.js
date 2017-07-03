@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
     getFromLocalStorage(); //obtener local storage
 });
