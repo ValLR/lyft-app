@@ -22,3 +22,26 @@ html,body{
 .btn-style{
 	margin-top: 120%;
 }
+
+.btn-transp{
+	background-color: transparent;
+	border-style: solid;
+	border-width: 0.5px;
+	text-transform: capitalize;
+	font-weight: 200;
+	font-size: 23px;
+}
+
+.btn-gradient{
+	background: rgba(112,2,122,1);
+	background: -moz-linear-gradient(left, rgba(112,2,122,1) 0%, rgba(239,1,124,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(112,2,122,1)), color-stop(100%, rgba(239,1,124,1)));
+	background: -webkit-linear-gradient(left, rgba(112,2,122,1) 0%, rgba(239,1,124,1) 100%);
+	background: -o-linear-gradient(left, rgba(112,2,122,1) 0%, rgba(239,1,124,1) 100%);
+	background: -ms-linear-gradient(left, rgba(112,2,122,1) 0%, rgba(239,1,124,1) 100%);
+	background: linear-gradient(to right, rgba(112,2,122,1) 0%, rgba(239,1,124,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#70027a', endColorstr='#ef017c', GradientType=1 );
+	text-transform: capitalize;
+	font-weight: lighter;
+	font-size: 23px;
+}
