@@ -8,31 +8,58 @@
     <!--Materialize-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
     <!--Font Awesome-->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://use.fontawesome.com/477be0bbd3.js"></script>
     <!--CSS-->
     <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body class="container">
-    <div class="row">
-        <form class="col s12">
-            <div class="row">
-                <div class="input-field col s12">
-                    <div class="col s3 dropdown-container">
-                        
-                    </div>
-                </div>
+    <section class="header">
+        <div class="row header-contain">
+            <div class="col s1 back">
+                <button id="back">
+                    <i class="fa fa-chevron-left" aria-hidden="true"></i>                
+                </button>
+
             </div>
-        </form>
-    </div>
-
-
+            <div class="col s10 titles">
+                <h4>Sign up</h4>
+                <p>Join now for free ride credits</p>
+            </div>
+        </div>
+        </section>
+        <section class="col s12 input-container">
+            <div class="row">
+                <div class="input-field col s5">
+                    <select class="icons">
+                        <option value="" disabled selected>Choose your country</option>
+                        <option value="pe" data-icon="assets/img/Peru-Flag-icon.png" class="circle"> (+51)</option>
+                        <option selected value="cl" data-icon="assets/img/Chile.png" class="circle"> (+56)</option>
+                        <option value="mx" data-icon="assets/img/Mexico-Flag-icon.png" class="circle"> (+52)</option>
+                    </select>
+                </div>
+                <form action method="post" name="formulario" id="formulario">
+                    <div class="input-field col s7">
+                        <input type="number" id="telefono" class="validate" placeholder="Phone number">
+                    </div>
+                </form>
+             <div class="row sub">
+                <div class="col s12">
+                    <p>You verification code will appear shortly</p>              
+                </div>
+            </div>               
+            </div>
+        </section>
+        <div class="next btn-container">
+            <div class="row">
+                <a class="waves-effect waves-light col s12 btn-large" id="next">Next</a>
+            </div>
+        </div>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="assets/js/main.js">
-
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    <script src="assets/js/main.js"></script>
 
 </body>
 

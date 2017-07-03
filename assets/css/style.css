@@ -1,5 +1,59 @@
 html,body{
     
     background-color: ghostwhite;
+    color:black;
+    text-align: center;
 
+}
+.container{
+	width:100%;
+}
+.container .row{
+	margin-left:0;
+	margin-right:0;
+}
+.header{
+	border-bottom: 1px solid grey;
+}
+
+.fa{
+	font-size:40px;
+	color:black;
+}
+
+#back{
+	padding:30px 6px 30px 5px;
+	border:none;
+	background-color: transparent;
+}
+#back:hover{
+	background-color: whitesmoke;
+}
+.header-contain{
+	margin-bottom:0;
+}
+.titles{
+	padding:0;
+}
+
+.input-container{
+	margin: 10px 8px 0 8px;
+	padding:0 15px 0 15px;
+}
+.input-field{
+
+	margin-top:10;
+	border: 1px solid grey;
+	padding:0;
+}
+.select-wrapper input.select-dropdown{
+	border-bottom:none;
+	margin-bottom: 3px;
+}
+#telefono{
+	border-bottom:none;
+	margin-bottom: 3px;
+}
+#next{
+	background-color: #F500B7;
 }
