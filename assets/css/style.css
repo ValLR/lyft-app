@@ -1,9 +1,3 @@
-html,body{
-    
-    background-color: ghostwhite;
-
-}
-
 .bg-img{
 	background-image: url("../img/lyft-driver.jpg");
 	background-position: center bottom;
@@ -46,3 +40,6 @@ html,body{
 	font-weight: lighter;
 	font-size: 23px;
 }
+
+
+

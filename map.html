@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>LYFT MAP</title>
+	<!-- FONT AWESOME -->
+	<script src="https://use.fontawesome.com/4154d90246.js"></script>
+	<!-- ICON Materialize -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Materialize -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+	<!-- CSS -->
+	<link rel="stylesheet" href="assets/css/mapstyle.css">
+</head>
+<body>
+	<!-- NAVEGADOR PHONE -->
+	<nav class="el-nav-phone">
+	    <div class="nav-wrapper">
+			<div class="row elem-phone">
+				<div class="col s4 left">
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle-thin" aria-hidden="true"></i>
+					<i class="fa fa-circle-thin" aria-hidden="true"></i>
+					
+					<i class="fa fa-wifi" aria-hidden="true"></i>
+				</div>
+				<div class="col s4 center hora">
+					<p><b>6:01 PM</b></p>
+				</div>	
+				<div class="col s4 center bateria">
+					<i class="fa fa-location-arrow" aria-hidden="true"></i>
+					<i class="fa fa-clock-o" aria-hidden="true"></i> 18 %
+					<i class="fa fa-battery" aria-hidden="true"></i>
+					</p>
+					
+				</div>			
+			</div>	
+	    </div>
+	</nav>
+
+	<!-- NAVEGADOR LOGOS -->
+	<nav class="el-nav-logos">
+	    <div class="nav-wrapper">
+	    	<div class="row">
+	    		<div class="col s4 center">
+	    			<div class="fondo-circulo-foto">
+	    				<img class="rounded-circle img-fluid" src="assets/img/Perrito-3-peque.png" alt="">
+	    			</div> 
+	    		</div>
+	    		<div class="col s4 center">
+	    			<a href="#" class="brand-logo el-logo"><img class="logo" src="assets/img/logo-white.png" alt=""></a>
+	    		</div>
+	    		<div class="col s4 center">
+	    			<div class="circulo-gift">
+	    				<i class="fa fa-gift" aria-hidden="true"></i>
+	    			</div>
+	    		</div>	    			    		
+	    	</div>
+
+	    </div>
+ 	</nav>
+
+	<!-- MAPA -->
+	<section class="mapa-fondo">
+			<div class="el-mapa" id="map"></div>
+	</section>
+
+	<!-- LOGOS GOOGLE NAV / INPUT BTN -->
+	<section class="botones-encontrar">
+		<div class="row fila-btn-encontrar">
+			<div class="col s6">
+				<img class="logo-gogle" src="assets/img/Google_2015_logo.svg.png" alt="">
+			</div>
+			<div class="col s6 center">
+				<div class="circulo-navigation">
+	    			<i class="fa fa-location-arrow" aria-hidden="true"></i>
+	    		</div>
+			</div>	
+		</div>
+		<div class="row">
+			<div class="col s12">
+				<input type="text" id="destino" placeholder=" introduce tu destino">
+				<a class="waves-effect waves-light btn btn-set" id="ruta">Set pickup</a>
+			</div>
+		</div>
+	</section>
+
+	<script async defer src="http://maps.googleapis.com/maps/api/js?key=AIzaSyD_fuPru5mi4Ps-Vl18xIixGXV9xX5LDUQ&callback=initMap&libraries=places"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+	<script src="assets/js/geolocation.js"></script>
+</body>
+</html>
