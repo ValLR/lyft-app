@@ -21,3 +21,6 @@ body{
 input{
 	color: grey !important;
 }
+#sendbtn{
+    margin-left: 40%;
+}
